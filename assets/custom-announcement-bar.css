@@ -1,0 +1,19 @@
+/* Base styles for announcement bar - applies to all instances */
+.announcement-bar-section {
+  position: relative;
+  z-index: 2;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+.announcement-bar-section p {
+  margin: 0;
+  letter-spacing: var(--letter-spacing-body);
+  font-weight: var(--font-weight-regular) !important;
+}
+
+[dir="rtl"] .announcement-bar-section p {
+  text-align: center;
+}
+
+/* Instance-specific styles are handled in the section file using section.id */ 

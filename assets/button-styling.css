@@ -1,0 +1,325 @@
+/* ===================================== */
+/* COMPREHENSIVE GLOBAL BUTTON STYLING */
+/* ===================================== */
+
+:root {
+  /* Fallback values for compatibility */
+  --button-border-radius: var(--global-button-radius, 8px);
+  --button-text-transform: var(--global-button-text-transform, none);
+  --button-font-family: var(--font-body-family, sans-serif);
+  
+  /* Enhanced button color system with fallbacks to existing theme colors */
+  --button-bg-color: var(--global-button-bg-color, var(--global-section-button-color, #EF4A65));
+  --button-text-color: var(--global-button-text-color, var(--global-section-button-text-color, #FFFFFF));
+  --button-border-color: var(--global-button-border-color, var(--button-bg-color));
+  --button-hover-bg-color: var(--global-button-hover-bg-color, var(--button-bg-color));
+  --button-hover-text-color: var(--global-button-hover-text-color, var(--button-text-color));
+}
+
+/* ===================================== */
+/* GLOBAL BUTTON CLASSES */
+/* ===================================== */
+
+/* Base button styling - always applied for spacing consistency */
+.button-global-style,
+.use-global-button-styling,
+.button-global-typography {
+  /* Always use global spacing and consistency */
+  padding: var(--global-button-padding-y, 12px) 20px !important;
+  letter-spacing: var(--global-button-letter-spacing, 1px) !important;
+  font-family: var(--button-font-family) !important;
+  
+  /* Behavior */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  /* Remove default button styling */
+  box-shadow: none !important;
+  outline: none;
+}
+
+/* Complete global styling (includes colors) */
+.button-global-style,
+.use-global-button-styling {
+  /* Global Typography & Appearance */
+  font-size: var(--global-button-font-size, 14px) !important;
+  font-weight: var(--global-button-font-weight, 700) !important;
+  text-transform: var(--global-button-text-transform, none) !important;
+  border-radius: var(--global-button-radius, 8px) !important;
+  background-color: var(--button-bg-color) !important;
+  color: var(--button-text-color) !important;
+  border: var(--global-button-border-width, 0px) solid var(--button-border-color) !important;
+}
+
+.button-global-style:hover,
+.button-global-style:focus,
+.use-global-button-styling:hover,
+.use-global-button-styling:focus {
+  background-color: var(--button-hover-bg-color) !important;
+  color: var(--button-hover-text-color) !important;
+  text-decoration: none !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.button-global-style:active,
+.use-global-button-styling:active {
+  transform: translateY(0);
+}
+
+/* ===================================== */
+/* APPLY GLOBAL STYLING TO ALL BUTTON TYPES */
+/* ===================================== */
+
+/* 
+  All these button selectors automatically inherit global button styling.
+  This ensures consistent appearance across the entire theme.
+  Individual sections can override with conditional styling when needed.
+*/
+.button,
+.btn,
+button[type="submit"],
+input[type="submit"],
+.product-form__submit,
+.shop-add-to-cart-button,
+.cart__checkout-button,
+.contact-button,
+.contact__button,
+.button--primary,
+.claim-button,
+.shopify-payment-button .shopify-payment-button__button--unbranded,
+.shopify-payment-button__button,
+.newsletter-form__button,
+.field__button {
+  @extend .button-global-style;
+}
+
+/* ===================================== */
+/* SECTION-SPECIFIC OVERRIDE UTILITIES */
+/* ===================================== */
+
+/* Utility class for sections that want to use custom button styling */
+.button-section-override {
+  /* Reset global styles to allow section-specific styling */
+  padding: unset !important;
+  font-size: unset !important;
+  font-weight: unset !important;
+  letter-spacing: unset !important;
+  text-transform: unset !important;
+  border-radius: unset !important;
+  background-color: unset !important;
+  color: unset !important;
+  border: unset !important;
+}
+
+/* 
+  .button-global-typography is now defined above with base spacing styles.
+  For sections that want global spacing but custom colors, add custom colors separately.
+*/
+
+/* ===================================== */
+/* SHOPIFY SPECIFIC ELEMENTS */
+/* ===================================== */
+
+/* Shopify accelerated checkout buttons */
+.shopify-payment-button .shopify-payment-button__button,
+.shopify-payment-button .shopify-payment-button__button--unbranded {
+  border-radius: var(--global-button-radius, 8px) !important;
+  font-family: var(--button-font-family) !important;
+}
+
+.shopify-payment-button .shopify-payment-button__more-options {
+  border-radius: calc(var(--global-button-radius, 8px) / 2) !important;
+  font-family: var(--button-font-family) !important;
+}
+
+/* ===================================== */
+/* CONDITIONAL GLOBAL APPLICATION */
+/* ===================================== */
+
+/* Apply to all button elements if setting is enabled */
+body[data-apply-button-radius-to-all="true"] button:not([class*="shopify"]):not([class*="tab-button"]),
+body[data-apply-button-radius-to-all="true"] .btn-secondary,
+body[data-apply-button-radius-to-all="true"] [class*="btn-"]:not([class*="tab-button"]),
+body[data-apply-button-radius-to-all="true"] select,
+body[data-apply-button-radius-to-all="true"] .disclosure__button,
+body[data-apply-button-radius-to-all="true"] .facet-checkbox,
+body[data-apply-button-radius-to-all="true"] .color-swatch {
+  border-radius: var(--global-button-radius, 8px) !important;
+}
+
+/* Special case for pill elements - always use pill shape */
+.pill,
+[class*="pill"],
+.tag,
+[class*="tag-"] {
+  border-radius: 50px !important;
+}
+
+/* ===================================== */
+/* LEGACY SHOP-ADD-TO-CART-BUTTON STYLES */
+/* ===================================== */
+
+.shop-add-to-cart-wrapper {
+  width: 100% !important;
+  display: block;
+}
+
+.shop-add-to-cart-wrapper .product-form,
+.shop-add-to-cart-wrapper .form {
+  width: 100% !important;
+  display: block;
+}
+
+.shop-add-to-cart-button {
+  @extend .button-global-style;
+  width: 100% !important;
+  gap: 10px;
+  position: relative;
+}
+
+.shop-add-to-cart-button .button-icon {
+  line-height: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .shop-add-to-cart-button,
+  .shop-add-to-cart-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+/* Loading spinner for shop buttons */
+.shop-add-to-cart-button .loading__spinner {
+  position: absolute;
+  width: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.shop-add-to-cart-button.loading span {
+  visibility: hidden;
+}
+
+.shop-add-to-cart-button .spinner {
+  animation: shop-atc-rotator 1.4s linear infinite;
+}
+
+@keyframes shop-atc-rotator {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+
+.shop-add-to-cart-button .path {
+  stroke: currentColor;
+  stroke-dasharray: 280;
+  stroke-dashoffset: 0;
+  transform-origin: center;
+  animation: shop-atc-dash 1.4s ease-in-out infinite;
+}
+
+@keyframes shop-atc-dash {
+  0% {
+    stroke-dashoffset: 280;
+  }
+  50% {
+    stroke-dashoffset: 75;
+    transform: rotate(135deg);
+  }
+  100% {
+    stroke-dashoffset: 280;
+    transform: rotate(450deg);
+  }
+}
+
+/* ===================================== */
+/* BUTTON VARIANTS */
+/* ===================================== */
+
+/* Primary button variant (uses global colors) */
+.button--primary {
+  @extend .button-global-style;
+}
+
+/* Secondary button variant (inverted colors) */
+.button--secondary {
+  @extend .button-global-typography;
+  background-color: transparent !important;
+  color: var(--button-bg-color) !important;
+  border: 2px solid var(--button-bg-color) !important;
+}
+
+.button--secondary:hover,
+.button--secondary:focus {
+  background-color: var(--button-bg-color) !important;
+  color: var(--button-text-color) !important;
+}
+
+/* Outline button variant */
+.button--outline {
+  @extend .button-global-typography;
+  background-color: transparent !important;
+  color: var(--button-bg-color) !important;
+  border: 1px solid var(--button-bg-color) !important;
+}
+
+.button--outline:hover,
+.button--outline:focus {
+  background-color: var(--button-bg-color) !important;
+  color: var(--button-text-color) !important;
+}
+
+/* Text-only button variant */
+.button--text {
+  @extend .button-global-typography;
+  background-color: transparent !important;
+  color: var(--button-bg-color) !important;
+  border: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-decoration: underline !important;
+}
+
+.button--text:hover,
+.button--text:focus {
+  color: var(--button-hover-bg-color) !important;
+  background-color: transparent !important;
+}
+
+/* ===================================== */
+/* BUTTON TEXT GLOBAL INTEGRATION */
+/* ===================================== */
+
+/* Ensure button-text elements inside globally styled buttons use global settings */
+.button-global-style .button-text,
+.use-global-button-styling .button-text {
+  font-size: var(--global-button-font-size, 14px) !important;
+  font-weight: var(--global-button-font-weight, 700) !important;
+  letter-spacing: var(--global-button-letter-spacing, 1px) !important;
+  text-transform: var(--global-button-text-transform, none) !important;
+}
+
+/* Allow all button types to use custom button-text font size via CSS custom property */
+.shop-add-to-cart-button .button-text,
+.claim-button .button-text,
+.contact-button .button-text,
+.contact__button .button-text,
+.button--primary .button-text,
+.newsletter-form__button .button-text,
+.field__button .button-text {
+  font-size: var(--button-text-font-size, inherit) !important;
+} 
