@@ -343,7 +343,7 @@
         "kaching_bundles_app_block_LAaxXm": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "product": "body-protection-compound",
+            "product": "advanced-recovery-complex",
             "manual_deal_block_id": ""
           }
         },
@@ -2899,7 +2899,7 @@
           "type": "shopify://apps/ali-reviews/blocks/widget-box/bf2eea72-0400-4db1-8908-44b7418f9a88",
           "disabled": true,
           "settings": {
-            "product": "body-protection-compound"
+            "product": "advanced-recovery-complex"
           }
         }
       },
