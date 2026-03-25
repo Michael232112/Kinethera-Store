@@ -997,7 +997,7 @@
         "kaching_bundles_app_block_kMbXWc": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "product": "advanced-recovery-complex"
+            "product": "advanced-recovery-complex-1"
           }
         },
         "quantity_break_f4YzMJ": {
@@ -2896,7 +2896,7 @@
         "kudosi_ali_reviews_widget_box_t83Nnc": {
           "type": "shopify://apps/ali-reviews/blocks/widget-box/bf2eea72-0400-4db1-8908-44b7418f9a88",
           "settings": {
-            "product": "advanced-recovery-complex"
+            "product": "advanced-recovery-complex-1"
           }
         }
       },
