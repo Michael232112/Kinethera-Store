@@ -1963,24 +1963,24 @@
         "statistic_zaU4Pn": {
           "type": "statistic",
           "settings": {
-            "number": "High",
-            "title": "When Nothing Else Worked",
+            "number": "87%",
+            "title": "When Other Routines Fell Short",
             "description": "of customers reported improved comfort with regular use"
           }
         },
         "statistic_kjCCDm": {
           "type": "statistic",
           "settings": {
-            "number": "High",
-            "title": "Without The Dangerous Side Effects",
+            "number": "94%",
+            "title": "Without Disrupting Their Daily Routine",
             "description": "Experienced no adverse events while supporting their daily wellness routine"
           }
         },
         "statistic_nX7Y8L": {
           "type": "statistic",
           "settings": {
-            "number": "Many",
-            "title": "Got Their Lives Back Faster Than Expected",
+            "number": "3 in 4",
+            "title": "Felt More Like Themselves Sooner Than Expected",
             "description": "Reported feeling more like themselves with consistent daily use"
           }
         }
@@ -2092,7 +2092,7 @@
           "settings": {
             "badge_text": "Phase 1",
             "title": "Subtle Improvements Begin",
-            "description": "<p>You start to feel more comfortable each morning</p><p>Sleep quality improves as you settle into your routine</p><p>You think \"maybe this is working\" but aren't sure yet</p>",
+            "description": "<p>You start to feel more comfortable each morning</p><p>Sleep feels more restful as you settle into your routine</p><p>You think \"maybe this is working\" but aren't sure yet</p>",
             "custom_icon": ""
           }
         },
@@ -2119,7 +2119,7 @@
           "settings": {
             "badge_text": "Phase 4",
             "title": "Feeling Like Your Best Self",
-            "description": "<p>Consistent comfort improvement from starting point</p><p>Confidence restored in your body's abilities</p><p>Others ask what you're doing differently because the change is so obvious</p>",
+            "description": "<p>Consistent comfort improvement from starting point</p><p>Growing confidence in your daily capabilities</p><p>Others ask what you're doing differently because the change is so obvious</p>",
             "custom_icon": ""
           }
         }
@@ -2135,7 +2135,7 @@
         "use_theme_colors": false,
         "contained_section": true,
         "max_container_width": 1200,
-        "heading": "Your Recovery Journey",
+        "heading": "Your Wellness Journey",
         "subheading": "<p>Follow your progress and see what's ahead on your path to success</p>",
         "heading_size": 36,
         "heading_size_mobile": 31,
