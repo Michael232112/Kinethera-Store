@@ -1396,20 +1396,6 @@
             "purchase_date": "6 weeks ago"
           }
         },
-        "testimonial_Mx7d8B": {
-          "type": "testimonial",
-          "settings": {
-            "show_stars": true,
-            "title": "Simple to take, fits my lifestyle perfectly.",
-            "content": "<p>\"Simple to take, fits my lifestyle perfectly. Easy to incorporate into my morning routine. I would recommend this to anyone looking for a quality supplement. Highly recommend.\"</p>",
-            "author_name": "Michael.A - Arkansas AR",
-            "avatar_image": "shopify://shop_images/bpc-157-section-money-back-2.jpg",
-            "rating": 5,
-            "verified": true,
-            "show_purchase_date": false,
-            "purchase_date": "March 14th, 2024"
-          }
-        },
         "testimonial_FcNexd": {
           "type": "testimonial",
           "settings": {
@@ -1423,13 +1409,27 @@
             "show_purchase_date": false,
             "purchase_date": "March 14th, 2024"
           }
+        },
+        "testimonial_Mx7d8B": {
+          "type": "testimonial",
+          "settings": {
+            "show_stars": true,
+            "title": "Simple to take, fits my lifestyle perfectly.",
+            "content": "<p>\"Simple to take, fits my lifestyle perfectly. Easy to incorporate into my morning routine. I would recommend this to anyone looking for a quality supplement. Highly recommend.\"</p>",
+            "author_name": "Michael.A - Arkansas AR",
+            "avatar_image": "shopify://shop_images/bpc-157-section-money-back-2.jpg",
+            "rating": 5,
+            "verified": true,
+            "show_purchase_date": false,
+            "purchase_date": "March 14th, 2024"
+          }
         }
       },
       "block_order": [
         "testimonial_eCDm7B",
         "testimonial_LNMnY3",
-        "testimonial_Mx7d8B",
-        "testimonial_FcNexd"
+        "testimonial_FcNexd",
+        "testimonial_Mx7d8B"
       ],
       "name": "Testimonials",
       "settings": {
@@ -1543,7 +1543,7 @@
             "preset_icon": "shield",
             "use_custom_icon": false,
             "custom_icon_svg": "",
-            "icon_image": "shopify://shop_images/BPC-157-icons-usp-chronic-injury-db.svg",
+            "icon_image": "shopify://shop_images/kinthera_-_icon_-_every_day_wellnes.svg",
             "icon_size_mobile": 60,
             "icon_size_desktop": 60,
             "vertical_spacing": 10
@@ -1618,7 +1618,7 @@
         "icon_border_style": "solid",
         "icon_border_color": "rgba(0,0,0,0)",
         "show_image": true,
-        "section_image": "shopify://shop_images/kinethera-three-bottles.png",
+        "section_image": "shopify://shop_images/kinethera-section-3-image-1.png",
         "image_border_radius": 0,
         "override_global_accent": true,
         "accent_color": "#0360ee",
@@ -1724,7 +1724,7 @@
       "settings": {
         "heading": "Trusted",
         "accent_text": "Solutions To:",
-        "subheading": "<p>Developed by medical professionals</p>",
+        "subheading": "<p>Formulated for daily wellness</p>",
         "shared_image": "shopify://shop_images/BPC-157-section-soultion-without-pain-1.jpg",
         "shared_image_width": 500,
         "tab_style": "pills",
