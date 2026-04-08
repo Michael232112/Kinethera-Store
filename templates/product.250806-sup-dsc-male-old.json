@@ -840,7 +840,7 @@
         "paragraph_RB44Qk": {
           "type": "paragraph",
           "settings": {
-            "paragraph_text": "<p>You've tried everything your doctor suggested. </p><p><strong>Three months of rest.</strong> Physical therapy twice a week. <strong>Anti-inflammatories that upset your stomach</strong> AND made gut problems worse. </p><p>But nothing quite delivered what you were hoping for.</p><p><strong>But here's what's really frustrating...</strong></p>",
+            "paragraph_text": "<p>You've tried everything you could think of...</p><p><strong>Three months of rest.</strong> Months of trying <strong>different</strong> <strong>approaches </strong>that didn't work. Wellness routines that didn't quite fit your lifestyle AND left you <strong>feeling worse.</strong></p><p>But nothing quite delivered what you were hoping for.</p><p><strong>But here's what's really frustrating...</strong></p>",
             "margin_top": -20,
             "margin_bottom": 0,
             "paragraph_color": "#2e3b48"
@@ -893,7 +893,7 @@
         "section_max_width": 1250,
         "heading": "Let's",
         "heading_accent": "be real...",
-        "image": "shopify://shop_images/kinethera-section-1-image-1.1.png",
+        "image": "shopify://shop_images/kinethera-section-1-image-1.0.png",
         "video_autoplay": true,
         "video_loop": true,
         "video_muted": true,
