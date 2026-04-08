@@ -1224,7 +1224,7 @@
         "paragraph_3xLtLp": {
           "type": "paragraph",
           "settings": {
-            "paragraph_text": "<p>Traditional treatments only mask symptoms. Advanced Recovery Complex is designed to support your body's natural processes and promote overall daily wellness.</p>",
+            "paragraph_text": "<p>Traditional approaches only address surface-level comfort. Advanced Recovery Complex is designed to support your body's natural processes and promote overall daily wellness.</p>",
             "margin_top": -20,
             "margin_bottom": 0,
             "paragraph_color": "#2e3b48"
@@ -1265,7 +1265,7 @@
         "paragraph_NrqYhy": {
           "type": "paragraph",
           "settings": {
-            "paragraph_text": "<p>It's like giving your body the daily support it needs - suddenly everything runs smoothly again.</p><p><strong>And our customers agree - Advanced Recovery Complex supports their wellness goals every day.</strong></p>",
+            "paragraph_text": "<p>It's like giving your body the daily support it needs - suddenly your daily routine feels effortless again.</p><p><strong>And our customers agree - Advanced Recovery Complex supports their wellness goals every day.</strong></p>",
             "margin_top": -20,
             "margin_bottom": 0,
             "paragraph_color": "#2e3b48"
@@ -1318,7 +1318,7 @@
         "section_max_width": 1250,
         "heading": "How Advanced Recovery Complex Supports",
         "heading_accent": "Your Daily Wellness Goals",
-        "image": "shopify://shop_images/Candid_first-person_POV_202603250819.jpg",
+        "image": "shopify://shop_images/kinethera-section-1-image-1.3.png",
         "video_autoplay": true,
         "video_loop": true,
         "video_muted": true,
@@ -1372,8 +1372,8 @@
           "type": "testimonial",
           "settings": {
             "show_stars": true,
-            "title": "Great product, feeling stronger every day.",
-            "content": "<p>\"Started taking this daily. Was looking for something to support my active lifestyle.<br/><br/>Great product, feeling stronger every day.Been back in the gym 2 weeks now. First time in almost a year.\"</p>",
+            "title": "Great product, feeling better every day.",
+            "content": "<p>\"Started taking this daily. Was looking for something to support my active lifestyle.<br/><br/>Great product, feeling stronger every day. Been more active the past 2 weeks. Feeling like myself again. First time in almost a year.\"</p>",
             "author_name": "Dennis.T - Columbus, OH",
             "avatar_image": "shopify://shop_images/bpc-testimonial-1.1.jpg",
             "rating": 5,
@@ -1409,12 +1409,27 @@
             "show_purchase_date": false,
             "purchase_date": "March 14th, 2024"
           }
+        },
+        "testimonial_FcNexd": {
+          "type": "testimonial",
+          "settings": {
+            "show_stars": true,
+            "title": "Finally something that actually works for my routine.",
+            "content": "<p>I've tried a lot of supplements over the years and most just sat on my shelf. Been taking this every morning with breakfast for about 3 weeks now. I actually look forward to it. Energy feels more consistent throughout the day and my digestion has been noticeably better. Will definitely be reordering.</p>",
+            "author_name": "Robert K. — Denver, CO",
+            "avatar_image": "shopify://shop_images/kinethera-section-2-image-1.png",
+            "rating": 5,
+            "verified": true,
+            "show_purchase_date": false,
+            "purchase_date": "March 14th, 2024"
+          }
         }
       },
       "block_order": [
         "testimonial_eCDm7B",
         "testimonial_LNMnY3",
-        "testimonial_Mx7d8B"
+        "testimonial_Mx7d8B",
+        "testimonial_FcNexd"
       ],
       "name": "Testimonials",
       "settings": {
