@@ -893,7 +893,7 @@
         "section_max_width": 1250,
         "heading": "Let's",
         "heading_accent": "be real...",
-        "video": "shopify://files/videos/BPC-section-problem.mp4",
+        "image": "shopify://shop_images/kinethera-section-1-image-1.1.png",
         "video_autoplay": true,
         "video_loop": true,
         "video_muted": true,
