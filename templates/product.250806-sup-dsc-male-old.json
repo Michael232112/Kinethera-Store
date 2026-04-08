@@ -1032,7 +1032,7 @@
         "section_max_width": 1250,
         "heading": "Why Other Solutions",
         "heading_accent": "Failed You",
-        "video": "shopify://files/videos/BPC-section-problem-2.1.mp4",
+        "image": "shopify://shop_images/kinethera-section-1-image-1.1_8dd8886c-7143-4ff2-a2e0-7650be5ed563.png",
         "video_autoplay": true,
         "video_loop": true,
         "video_muted": true,
@@ -1118,7 +1118,7 @@
         "paragraph_jGWYhf": {
           "type": "paragraph",
           "settings": {
-            "paragraph_text": "<p>Here's what doctors don't tell you:<strong> Supporting your body's overall wellness can positively influence multiple areas of your daily comfort</strong>, including digestion and flexibility.</p><p>It's about taking a comprehensive approach to daily wellness.</p><p><strong>That's why the right supplement matters</strong> - finding a comprehensive daily formula that supports your overall wellness goals.</p>",
+            "paragraph_text": "<p>Here's what most people overlook:<strong> Supporting your body's overall wellness can positively influence multiple areas of your daily comfort</strong>, including digestion and flexibility.</p><p>It's about taking a comprehensive approach to daily wellness.</p><p><strong>That's why the right supplement matters</strong> - finding a comprehensive daily formula that supports your overall wellness goals.</p>",
             "margin_top": -20,
             "margin_bottom": 0,
             "paragraph_color": "#2e3b48"
@@ -1171,7 +1171,7 @@
         "section_max_width": 1250,
         "heading": "Why Your Wellness",
         "heading_accent": "Matters",
-        "video": "shopify://files/videos/kinethera_bpc-157_women_section-1-pain-c.mp4",
+        "image": "shopify://shop_images/kinethera-section-1-image-1.2.png",
         "video_autoplay": true,
         "video_loop": true,
         "video_muted": true,
