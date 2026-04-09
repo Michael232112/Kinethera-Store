@@ -14,8 +14,16 @@
     "footer": {
       "type": "custom-footer",
       "blocks": {
+        "menu_column_ngJdVq": {
+          "type": "menu_column",
+          "settings": {
+            "heading": "Support",
+            "menu": "footer"
+          }
+        },
         "custom_links_1": {
           "type": "custom_links",
+          "disabled": true,
           "settings": {
             "heading": "Support",
             "link_1_text": "Contact Us",
@@ -37,6 +45,32 @@
           "settings": {
             "heading": "Support Your Wellness Journey",
             "text": "<p>We help people feel their best with premium daily wellness support.</p><p><strong>sara@trykinethera.com<br/><br/></strong>16192 Coastal Hwy<br/>Lewes, DE 19958, US</p>"
+          }
+        },
+        "custom_links_DmLY6N": {
+          "type": "custom_links",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "link_1_text": "",
+            "link_1_url": "",
+            "link_2_text": "",
+            "link_2_url": "",
+            "link_3_text": "",
+            "link_3_url": "",
+            "link_4_text": "",
+            "link_4_url": "",
+            "link_5_text": "",
+            "link_5_url": "",
+            "link_6_text": "",
+            "link_6_url": ""
+          }
+        },
+        "text_column_tdKjmt": {
+          "type": "text_column",
+          "settings": {
+            "heading": "",
+            "text": ""
           }
         },
         "menu_column_1": {
@@ -61,22 +95,17 @@
           "settings": {
             "heading": "Follow Us"
           }
-        },
-        "text_column_tdKjmt": {
-          "type": "text_column",
-          "settings": {
-            "heading": "",
-            "text": "<p>These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>"
-          }
         }
       },
       "block_order": [
+        "menu_column_ngJdVq",
         "custom_links_1",
         "text_column_FNryEw",
+        "custom_links_DmLY6N",
+        "text_column_tdKjmt",
         "menu_column_1",
         "menu_column_2",
-        "social_column_1",
-        "text_column_tdKjmt"
+        "social_column_1"
       ],
       "settings": {
         "use_theme_colors": false,
@@ -93,13 +122,13 @@
         "brand_description": "",
         "footer_columns": "4",
         "show_footer_bottom": true,
-        "copyright_text": "",
-        "show_payment_icons": false,
+        "copyright_text": "These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+        "show_payment_icons": true,
         "show_localization": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "show_social": false,
-        "show_copyright": false,
+        "show_copyright": true,
         "newsletter_bg_color": "#fdffff",
         "newsletter_text_color": "#333333",
         "newsletter_button_color": "#007bff",
